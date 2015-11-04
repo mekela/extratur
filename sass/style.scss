@@ -1,2 +1,9 @@
 @import "compass/reset";
 
+#wrapper{
+	min-width: 1000px;
+}
+.inner{
+	width: 1000px;
+	margin: 0 auto;
+}
