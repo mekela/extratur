@@ -1,5 +1,6 @@
 .header{
 	@extend %clear;
+	padding: 10px 0 9px 0;
 	&-logo{
 		float: left;   
 		@extend %clear;
@@ -24,7 +25,10 @@
 			font-weight: 300;
 			font-size: 15px;
 			color:#000;
-			margin-bottom: 23px;
+			margin-bottom: 28px; 
+			&:last-child{
+				margin-bottom: 0;
+			}
 			b{
 				font-size: 17px;
 				font-weight: bold;

@@ -3,5 +3,41 @@
 	background-position: center top;
 	background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
+    position: relative; 
+    overflow: hidden;
+    &-title{
+    	font-size: 30px;   
+    	line-height: 50px;
+		font-weight: 300;
+		position: relative;
+		padding-top: 116px;
+		padding-left: 119px; 
+		float: left;
+		margin-right: 57px;
+		&-inner{    
+			width: 480px;
+			position: relative;
+			z-index: 2;
+		}
+    	b{
+			font-weight: 800;
+			text-transform: uppercase;
+    	}
+    	em{
+    		color: #f36d2c;
+			font-weight: 600;
+    	}
+    	&:after{
+    		content: url(../img/firstscreen-title.png);   
+			position: absolute;
+			top: 0;
+			left: 0;
+			margin-top: -79px;
+			margin-left: -155px;
+			z-index: 1;
+    	} 
+    }
+    .mform{
+	    float: left;
+    }
 }

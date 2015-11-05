@@ -53,7 +53,7 @@ table {
   border-spacing: 0; }
 
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans";
   font-size: 14px;
   margin: 0; }
 
@@ -65,7 +65,43 @@ a {
 
 .container {
   width: 1000px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  position: relative; }
+
+.vfix {
+  height: 100%;
+  width: 0px;
+  display: inline-block;
+  vertical-align: middle; }
+
+.button {
+  width: 138px;
+  height: 42px;
+  line-height: 42px;
+  background-color: #ed1f27;
+  border-radius: 5px;
+  box-shadow: 1px 1.7px #a92f34;
+  color: #fff;
+  font-family: "Open Sans";
+  font-size: 15px;
+  font-weight: 700;
+  text-transform: uppercase;
+  cursor: pointer;
+  display: block;
+  text-align: center;
+  min-width: 238px;
+  position: relative; }
+  .button:hover {
+    background: #a92f34; }
+  .button input {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    border: 0;
+    background: url("../images/spacer.gif");
+    cursor: pointer; }
 
 #wrapper {
   min-width: 1000px; }
@@ -88,9 +124,13 @@ a {
     background-position: 0 -92px;
     height: 21px; }
 
-.icon, .header-contacts-item span {
+.icon, .header-contacts-item span, .advantages-image img {
   display: inline-block;
   vertical-align: middle; }
+
+body * {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
 
 .container:after, .header:after, .header-logo:after {
   content: '';
@@ -101,82 +141,138 @@ a {
   overflow: hidden;
   display: block; }
 
-.icon, .header-contacts-item span {
+.icon, .header-contacts-item span, .advantages-image img {
   display: inline-block;
   vertical-align: middle; }
 
-.header-logo {
-  float: left; }
-  .header-logo-image {
-    float: left;
-    margin-right: 34px; }
-  .header-logo-title {
-    float: left;
-    font-size: 20px;
-    text-transform: uppercase;
-    font-weight: 300;
-    max-width: 180px;
-    padding-top: 43px;
-    line-height: 24px; }
-
-.header-contacts {
-  float: right;
-  padding-top: 14px; }
-  .header-contacts-item {
-    font-weight: 300;
-    font-size: 15px;
-    color: #000;
-    margin-bottom: 23px; }
-    .header-contacts-item b {
-      font-size: 17px;
-      font-weight: bold; }
-    .header-contacts-item .icon {
-      margin-right: 10px; }
+.header {
+  padding: 10px 0 9px 0; }
+  .header-logo {
+    float: left; }
+    .header-logo-image {
+      float: left;
+      margin-right: 34px; }
+    .header-logo-title {
+      float: left;
+      font-size: 20px;
+      text-transform: uppercase;
+      font-weight: 300;
+      max-width: 180px;
+      padding-top: 43px;
+      line-height: 24px; }
+  .header-contacts {
+    float: right;
+    padding-top: 14px; }
+    .header-contacts-item {
+      font-weight: 300;
+      font-size: 15px;
+      color: #000;
+      margin-bottom: 28px; }
+      .header-contacts-item:last-child {
+        margin-bottom: 0; }
+      .header-contacts-item b {
+        font-size: 17px;
+        font-weight: bold; }
+      .header-contacts-item .icon {
+        margin-right: 10px; }
 
 .firstScreen {
   height: 667px;
   background-position: center top;
   background-repeat: no-repeat;
   background-size: cover;
-  position: relative; }
+  position: relative;
+  overflow: hidden; }
+  .firstScreen-title {
+    font-size: 30px;
+    line-height: 50px;
+    font-weight: 300;
+    position: relative;
+    padding-top: 116px;
+    padding-left: 119px;
+    float: left;
+    margin-right: 57px; }
+    .firstScreen-title-inner {
+      width: 480px;
+      position: relative;
+      z-index: 2; }
+    .firstScreen-title b {
+      font-weight: 800;
+      text-transform: uppercase; }
+    .firstScreen-title em {
+      color: #f36d2c;
+      font-weight: 600; }
+    .firstScreen-title:after {
+      content: url(../img/firstscreen-title.png);
+      position: absolute;
+      top: 0;
+      left: 0;
+      margin-top: -79px;
+      margin-left: -155px;
+      z-index: 1; }
+  .firstScreen .mform {
+    float: left; }
 
 .advantages {
   position: absolute;
   bottom: 0;
   left: 0;
-  right: 0; }
+  right: 0;
+  background: rgba(0, 0, 0, 0.3);
+  height: 176px; }
+  .advantages-image {
+    height: 93px; }
+  .advantages-title {
+    color: #fff;
+    font-size: 16px;
+    line-height: 22px; }
   .advantages ul {
-    display: table;
-    table-layout: fixed;
+    height: 176px;
     width: 100%; }
     .advantages ul li {
-      display: table-cell;
-      text-align: center; }
+      float: left;
+      width: 20%;
+      height: 100%;
+      text-align: center;
+      -webkit-transition: all 300ms ease-out;
+      -moz-transition: all 300ms ease-out;
+      -ms-transition: all 300ms ease-out;
+      -o-transition: all 300ms ease-out;
+      transition: all 300ms ease-out; }
+      .advantages ul li:hover {
+        background: rgba(0, 0, 0, 0.3); }
 
-.header-logo {
-  float: left; }
-  .header-logo-image {
-    float: left;
-    margin-right: 34px; }
-  .header-logo-title {
-    float: left;
-    font-size: 20px;
+.mform {
+  position: relative;
+  padding-top: 87px; }
+  .mform.gray .mform-inner {
+    background: #848e94;
+    width: 344px;
+    padding: 25px 55px 17px 50px; }
+  .mform form {
+    position: relative;
+    z-index: 3; }
+  .mform-field {
+    margin-bottom: 18px; }
+  .mform-title {
+    font-size: 25px;
+    font-weight: bold;
+    color: #fff;
     text-transform: uppercase;
-    font-weight: 300;
-    max-width: 180px;
-    padding-top: 43px;
-    line-height: 24px; }
-
-.header-contacts {
-  float: right;
-  padding-top: 14px; }
-  .header-contacts-item {
-    font-weight: 300;
+    position: relative;
+    padding-bottom: 14px;
+    margin-bottom: 6px; }
+    .mform-title:after {
+      content: '';
+      display: block;
+      height: 2px;
+      width: 42px;
+      background: #fff;
+      position: absolute;
+      left: 0;
+      bottom: 0; }
+  .mform-subtitle {
     font-size: 15px;
-    color: #000;
+    color: #fff;
+    line-height: 24px;
     margin-bottom: 23px; }
-    .header-contacts-item b {
-      font-size: 17px;
-      font-weight: bold; }
-    .header-contacts-item .icon {
-      margin-right: 10px; }
