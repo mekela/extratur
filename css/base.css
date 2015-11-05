@@ -1,0 +1,6 @@
+#wrapper {
+  min-width: 1024px; }
+
+.inner {
+  width: 1024px;
+  margin: 0 auto; }

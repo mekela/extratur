@@ -1,0 +1,51 @@
+$color_white: #fff;
+$color_black: #000;
+$fsize: 14px;
+$fontfamily:  'Open Sans';
+$left: left;
+$right: right;
+$gradient: linear-gradient(to right, #d22beb 0%, #d22beb 0%, #1a94f2 100%);
+$container: 1000px;
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800&subset=latin,cyrillic-ext);
+
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	margin:0;
+}
+a{
+	color:#000;
+	text-decoration: underline;
+	&:hover{
+		text-decoration: none;
+	}
+}
+.container{
+	width: $container;
+	margin:0 auto;
+	@extend %clear;
+}
+
+@mixin button($button) {
+	width: 138px;
+	height: 27px;
+	background-color: #f36d2c;
+	border-radius: 5px;
+	box-shadow: 1px 1.7px 0 #bf5622;
+	color: $color_white;
+	font-family: $fontfamily;
+	font-size: 13px;
+	font-weight: 700;
+	line-height: 24px;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+
+#wrapper{
+	min-width: $container;
+}
+.inner{
+	width: $container;
+	margin: 0 auto;
+} 
