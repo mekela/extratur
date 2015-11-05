@@ -1,32 +1,4 @@
-@import "compass/reset";
-
-$color_white: #fff;
-$color_black: #000;
-$fsize: 14px;
-$fontfamily:  'Open Sans';
-$left: left;
-$right: right;
-$gradient: linear-gradient(to right, #d22beb 0%, #d22beb 0%, #1a94f2 100%);
-
-@mixin button($button) {
-	width: 138px;
-	height: 27px;
-	background-color: #f36d2c;
-	border-radius: 5px;
-	box-shadow: 1px 1.7px 0 #bf5622;
-	color: $color_white;
-	font-family: $fontfamily;
-	font-size: 13px;
-	font-weight: 700;
-	line-height: 24px;
-	text-transform: uppercase;
-	cursor: pointer;
-}
-
-#wrapper{
-	min-width: 1024px;
-}
-.inner{
-	width: 1024px;
-	margin: 0 auto;
-}
+@import "base";
+@import "_icons";  
+@import "_mixins";  
+@import "_partials"; 

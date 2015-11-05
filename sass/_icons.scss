@@ -1,0 +1,60 @@
+@mixin icons($background, $width, $height) {
+	background: url('../images/#{$background}.png') no-repeat left top;
+	width: $width; 
+	height: $height;
+}
+
+@mixin arrow($color, $direction:left, $width:7px, $weight: 3px, $angle: 45deg ) { // ie 10+
+	width:$width;
+	height:$width;
+	line-height:$width;
+	border-top:$weight solid $color;
+	border-right:$weight solid $color;
+
+	@if $direction == 'right' {
+		$angle : 45deg;
+	} 
+	@else if $direction == 'left' {
+			$angle : -135deg;
+		}	
+			@else if $direction == 'up' {
+				$angle : -45deg;
+			}
+				@else if $direction == 'down' {
+					$angle : 135deg;
+				}
+
+	-ms-transform:rotate($angle);
+	-moz-transform:rotate($angle);
+	-webkit-transform:rotate($angle);
+	-o-transform:rotate($angle);
+	transform:rotate($angle);
+}
+
+.icon {
+	@extend %inline-middle;	
+}
+
+
+@mixin positon($bg){
+	background-position: $bg;
+}
+
+.icon-contacts {
+	background-image: url(../img/icon-contacts.png);
+	background-repeat: no-repeat;
+	width: 25px;
+	
+ 	&-phone {
+		@include positon(0 0);
+		height: 21px;
+	}
+ 	&-mail {
+		@include positon(0 -49px);
+		height: 14px;
+ 	}
+ 	&-map {
+		@include positon(0 -92px); 
+		height: 21px;
+ 	}
+ }
