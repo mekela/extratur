@@ -1,0 +1,15 @@
+.advantages{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	ul{
+		display: table;
+		table-layout: fixed;
+		width: 100%;
+		li{
+			display: table-cell;
+			text-align: center;
+		}
+	}
+}
