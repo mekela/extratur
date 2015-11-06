@@ -21,6 +21,20 @@ $(function(){
 			}
 		}
 	});
-	
+	$('.rslider').slick({
+		dots: true,
+		infinite: true,
+		speed: 300,
+		slidesToShow: 1,
+		adaptiveHeight: true
+	});
 	$('input[placeholder], textarea[placeholder]').placeholder();
+
+	 $('.our_workers ul').bxSlider({
+	    slideWidth: 176,
+	    minSlides: 4,
+	    maxSlides: 4,
+	    pager: false,
+	    slideMargin: 64
+	  });
 });

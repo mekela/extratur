@@ -342,7 +342,7 @@ body * {
   overflow: hidden;
   padding: 43px 0 0 0; }
 
-.order_button {
+.order_button, .orange_button {
   width: 268px;
   height: 40px;
   background-color: #ed1c24;
@@ -429,7 +429,9 @@ body * {
   line-height: 24px;
   text-transform: uppercase;
   text-align: center;
-  padding-bottom: 60px; }
+  padding-bottom: 40px;
+  margin-bottom: 20px;
+  background: url(../img/title_bg.png) no-repeat center bottom; }
 
 .work_block {
   position: relative;
@@ -472,7 +474,363 @@ body * {
 
 .tours_cheap_wrap {
   height: 515px;
-  background: url(../img/order_bg.jpg) no-repeat center top; }
+  background: url(../img/order_bg.jpg) no-repeat center top;
+  overflow: hidden; }
+
+.tours_cheap_form {
+  float: right;
+  width: 350px;
+  margin: 108px 0 0 0;
+  padding: 30px 50px;
+  box-sizing: border-box; }
+  .tours_cheap_form h5 {
+    color: #333;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase; }
+    .tours_cheap_form h5:after {
+      content: '';
+      display: block;
+      width: 40px;
+      height: 2px;
+      background-color: #333;
+      margin: 11px 0; }
+  .tours_cheap_form p {
+    font-size: 15px;
+    color: #333;
+    line-height: 24px;
+    padding-bottom: 20px; }
+  .tours_cheap_form form div {
+    padding-bottom: 15px; }
+  .tours_cheap_form input {
+    color: #7b7b7b;
+    font-family: 'Open Sans';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    border: none;
+    width: 240px;
+    height: 32px;
+    background-color: #f1f1f1;
+    border-radius: 4px;
+    text-indent: 15px; }
+  .tours_cheap_form button {
+    width: 138px;
+    height: 42px;
+    line-height: 42px;
+    background-color: #ed1f27;
+    border-radius: 5px;
+    box-shadow: 1px 1.7px #a92f34;
+    color: #fff;
+    font-family: "Open Sans";
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: pointer;
+    display: block;
+    text-align: center;
+    min-width: 238px;
+    position: relative;
+    border: none; }
+    .tours_cheap_form button:hover {
+      background: #a92f34; }
+
+.reviews {
+  padding: 50px 0 60px; }
+  .reviews .title {
+    position: relative; }
+
+.client_info {
+  width: 250px;
+  float: right;
+  margin-bottom: 20px; }
+
+.client_info__name {
+  color: black;
+  font-family: OpenSans;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  text-transform: uppercase;
+  display: inline-block; }
+
+.client_info__job {
+  color: #959595;
+  font-family: OpenSans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  display: inline-block; }
+
+.rslider__rbody {
+  font-size: 14px;
+  line-height: 24px;
+  clear: both;
+  width: 83%;
+  padding: 0 6%;
+  float: left;
+  position: relative; }
+  .rslider__rbody:before {
+    content: '';
+    background: url(../img/quote-left.png);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 35px;
+    height: 29px; }
+  .rslider__rbody:after {
+    content: '';
+    background: url(../img/quote-right.png);
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 35px;
+    height: 29px; }
+
+.rslider__photo {
+  float: right;
+  width: 120px;
+  height: 120px;
+  overflow: hidden;
+  border-radius: 100px; }
+
+.slick-dots {
+  bottom: -60px; }
+
+.slick-dots li {
+  width: 10px; }
+
+.slick-dots li button {
+  background: url(../img/dots.png) no-repeat;
+  width: 9px;
+  height: 9px; }
+
+.slick-dots li.slick-active button {
+  background: url(../img/dots-active.png) no-repeat; }
+
+.slick-dots li button:before {
+  content: none; }
+
+.orange_button {
+  width: 178px;
+  background-color: #f36d2c;
+  clear: both;
+  float: right;
+  z-index: 3; }
+
+.slick-prev, .slick-next {
+  bottom: -50px;
+  top: auto;
+  z-index: 1; }
+
+.slick-prev, .slick-prev:hover, .slick-prev:focus {
+  background: url(../img/arrow-left.png) no-repeat;
+  width: 8px;
+  height: 15px;
+  left: 15%; }
+
+.slick-next, .slick-next:hover, .slick-next:focus {
+  background: url(../img/arrow-right.png) no-repeat;
+  width: 8px;
+  height: 15px;
+  left: 17%; }
+
+.slick-prev:before, .slick-next:before {
+  content: none; }
+
+.rslider {
+  position: relative; }
+  .rslider:after {
+    content: '';
+    width: 85%;
+    height: 1px;
+    background-color: #f36d2c;
+    position: absolute;
+    right: 0;
+    bottom: -22px; }
+
+.rvideo {
+  padding: 50px 0;
+  clear: both;
+  background: url(../img/video-reviews-bg.jpg) no-repeat center top;
+  height: 494px; }
+  .rvideo .title {
+    position: relative;
+    color: #fff;
+    margin-bottom: 30px; }
+
+.rvideo__item {
+  display: inline-block;
+  width: 491px;
+  height: 280px; }
+
+.rvideo__item {
+  display: inline-block;
+  width: 491px;
+  height: 280px;
+  margin-right: 14px; }
+
+.rvideo__item:last-child {
+  margin-right: 0; }
+
+.tours_cheap_wrap {
+  height: 515px;
+  background: url(../img/order_bg.jpg) no-repeat center top;
+  overflow: hidden; }
+
+.tours_cheap_form {
+  float: right;
+  width: 350px;
+  margin: 108px 0 0 0;
+  padding: 30px 50px;
+  box-sizing: border-box; }
+  .tours_cheap_form h5 {
+    color: #333;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase; }
+    .tours_cheap_form h5:after {
+      content: '';
+      display: block;
+      width: 40px;
+      height: 2px;
+      background-color: #333;
+      margin: 11px 0; }
+  .tours_cheap_form p {
+    font-size: 15px;
+    color: #333;
+    line-height: 24px;
+    padding-bottom: 20px; }
+  .tours_cheap_form form div {
+    padding-bottom: 15px; }
+  .tours_cheap_form input {
+    color: #7b7b7b;
+    font-family: 'Open Sans';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    border: none;
+    width: 240px;
+    height: 32px;
+    background-color: #f1f1f1;
+    border-radius: 4px;
+    text-indent: 15px; }
+  .tours_cheap_form button {
+    width: 138px;
+    height: 42px;
+    line-height: 42px;
+    background-color: #ed1f27;
+    border-radius: 5px;
+    box-shadow: 1px 1.7px #a92f34;
+    color: #fff;
+    font-family: "Open Sans";
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: pointer;
+    display: block;
+    text-align: center;
+    min-width: 238px;
+    position: relative;
+    border: none; }
+    .tours_cheap_form button:hover {
+      background: #a92f34; }
+
+.about_company_wrap {
+  margin: 38px 0; }
+  .about_company_wrap .container {
+    border: 1px solid #d5d5d5;
+    padding: 45px 0 0 0; }
+
+.preferences {
+  padding: 30px 50px;
+  background-color: #f8f8f8;
+  margin-bottom: 28px; }
+
+.subtitle {
+  color: #333;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 24px;
+  text-transform: uppercase; }
+  .subtitle:after {
+    content: '';
+    display: block;
+    width: 40px;
+    height: 2px;
+    background-color: #333;
+    margin: 11px 0; }
+
+.preferences_items {
+  font-size: 0;
+  padding: 25px 0 0 0; }
+  .preferences_items figure {
+    color: #333;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 18px;
+    display: inline-block;
+    width: 21%;
+    position: relative;
+    vertical-align: top;
+    overflow: visible; }
+    .preferences_items figure:last-child {
+      width: 15%; }
+    .preferences_items figure figcaption {
+      color: #333;
+      font-size: 15px;
+      font-weight: 700;
+      line-height: 18px; }
+      .preferences_items figure figcaption:before {
+        content: '';
+        display: block;
+        width: 42px;
+        height: 1px;
+        background-color: #f36d2c;
+        margin: 18px 0; }
+
+.our_workers {
+  padding: 30px 50px; }
+
+.our_workers_block {
+  position: relative; }
+
+.our_workers_item {
+  width: 176px;
+  height: 267px;
+  background-color: #f1f1f1; }
+  .our_workers_item dl {
+    padding: 0 10px; }
+  .our_workers_item dt {
+    color: #333;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 35px; }
+    .our_workers_item dt:after {
+      content: '';
+      display: block;
+      width: 30px;
+      height: 2px;
+      background-color: #f36d2c;
+      margin: 0px 0 6px 0; }
+  .our_workers_item dd {
+    color: #707a86;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 22px; }
+
+.bx-wrapper .bx-controls-direction a {
+  z-index: 10; }
+
+.bx-wrapper .bx-controls-direction a.bx-prev {
+  background: url(../img/slider_arrow_l.png) no-repeat center;
+  left: -45px; }
+
+.bx-wrapper .bx-controls-direction a.bx-next {
+  background: url(../img/slider_arrow_r.png) no-repeat center;
+  right: -45px; }
 
 .tour {
   margin-bottom: 39px; }
