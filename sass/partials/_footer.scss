@@ -1,0 +1,56 @@
+.footer{
+	background-color: #f4f4f4;
+	padding: 13px 0;
+	margin: 25px 0 7px 0;
+	overflow: hidden;
+	.logo{
+		float: left;
+		width: 322px;
+		a{
+			float: left;
+			overflow: hidden;
+		}
+		p{
+			overflow: hidden;
+			padding: 40px 0 0 20px;
+			color: #333;
+			font-size: 14px;
+			font-weight: 400;
+			line-height: 24px;
+		}
+	}
+	.footer-contacts{
+		float: left;
+		padding-left: 80px ;
+		padding-top: 7px;
+	}
+}
+	.footer_order_button{
+		float: right;
+		overflow: hidden;
+		padding: 43px 0 0 0;
+	}
+		.order_button{
+			width: 268px;
+			height: 40px;
+			background-color: #ed1c24;
+			border-radius: 5px;
+			box-shadow: 1px 1.7px 0 #b0161c;
+			color: white;
+			font-size: 14px;
+			font-weight: 700;
+			line-height: 40px;
+			text-transform: uppercase;
+			display: block;
+			text-align: center;
+			text-decoration: none;
+			margin: 1px 2px 4px 2px;
+		}
+.foot_develop{
+	text-align: center;
+	margin: 0 0 11px 0;
+	color: #838383;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 24px;
+}
