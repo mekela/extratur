@@ -1,0 +1,39 @@
+.tour-info{
+ 	@include horizontal-gradient(#fbdb53, #fff1b6);
+ 	@extend %clear;
+ 	padding: 25px 0 18px 0;
+	&-title{
+		font-size: 20px;
+		line-height: 31px;
+		margin-bottom: 14px;
+		font-weight: bold; 
+	}
+	&-subtitle{
+		font-size: 18px;
+		font-weight: 300;
+	}
+	&-text{
+		width: 485px;
+		float: left;
+	}
+	&-form{
+		width: 515px;
+		float: left;
+	}
+	.mform-field{
+	    margin-bottom: 8px;
+	}
+	.zNice-tInput .zNice-bg{
+		background: #fff;
+	}
+	.mform-col{
+		&:nth-child(2){
+		    padding-top: 42px;
+		}
+	}
+	.button{    
+		height: 30px;
+	    line-height: 30px;
+	    font-size: 14px;		
+	}
+}

@@ -1,19 +1,7 @@
 .reviews {
 	padding: 50px 0 60px;
 	.title{
-		position: relative;
-		&:before {
-			content: '';
-			background: url(../img/title-decor.png);
-			position: absolute;
-			width: 125px;
-			height: 17px;
-			bottom: 25px;
-			left: 0;
-			right: 0;
-			margin: 0 auto;
-			display: block;
-		}
+		position: relative; 
 	}
 } 
 .client_info {
@@ -139,18 +127,6 @@
 			position: relative;
 			color: #fff;
 			margin-bottom: 30px; 
-			&:before {
-			content: '';
-			background: url(../img/title_decor_light.png);
-			position: absolute;
-			width: 125px;
-			height: 17px;
-			bottom: 25px;
-			left: 0;
-			right: 0;
-			margin: 0 auto;
-			display: block;
-		}
 		}
 	}
 	.rvideo__item {

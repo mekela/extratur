@@ -1,0 +1,119 @@
+.tour{
+	margin-bottom: 39px;
+	&-head{
+		position: relative;
+		&-image{
+		}
+		&-title{
+			font-size: 20px;
+			font-weight: bold;
+			color: #fff;
+			background: rgba(0,0,0,0.4);
+			line-height: 55px;
+			padding: 0 10px;
+			position: absolute;
+			bottom: 19px;
+			left: 0;
+			right: 0;
+			@include transition(300, all, ease-out);
+		}
+		&:hover{
+			.tour-head-title{
+				bottom: 25px;
+			}
+		}
+	}
+	&-body{
+		border-left: 3px solid #e8e8e8;
+		border-right: 3px solid #e8e8e8;
+		border-bottom: 3px solid #e8e8e8; 
+		padding: 2px 20px 25px 20px;    
+	}
+	&-item{
+		position: relative;
+		overflow: hidden;
+		&-title{
+			h3{
+ 				@extend %inline-middle;
+				font-size: 15px;
+				font-weight: bold;
+				text-transform: uppercase;
+				line-height: 50px;
+				margin-right: 13px;
+			}
+			.tour-rating{
+				height: 12px;
+ 				@extend %inline-middle;				
+			}
+		}
+		&-image{
+			height: 86px;
+			position: relative;
+			&:hover{
+				.tour-item-descripton{
+					width: 279px;
+				}
+			}
+		}
+		&-price{
+			color: #fff;
+			font-size: 17px;
+			font-weight: bold;
+			margin-bottom: 11px;
+			padding-right: 9px;
+		}
+		&-descripton{
+			position: absolute;
+			top: 0;
+			right: 0;
+			width: 248px;
+			height: 100%;   
+			padding-top: 18px;
+			padding-right: 17px;
+			text-align: right;
+			background-image: url(../img/tour-description.png);
+			background-position: left top;
+			@include transition(300, all, ease-out);
+			.button{
+				float: right;
+			}
+		}
+		.button{
+
+		}
+	}
+	&-list{
+	    margin-bottom: 23px;
+	}
+	&-rating{
+		span{
+			@extend %icon-star;
+		}
+	}
+	&-request{
+		font-size: 18px;
+		font-weight: 300;
+		color: #f36d2c;
+		text-align: center;
+		display: block;
+		span{
+			padding-right: 18px;
+		}
+		&:hover{
+			span{
+				text-decoration: underline;
+				text-decoration: none;
+			}
+		}
+	}
+	.row{
+		margin-left: -11px;
+		margin-right: -11px;
+		@extend %clear;
+	}
+	.col-item{
+		padding-left: 11px;
+		padding-right: 11px;
+		float: left;
+	} 
+}

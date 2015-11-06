@@ -1,4 +1,71 @@
 .tours_cheap_wrap{
 	height: 515px;
 	background: url(../img/order_bg.jpg) no-repeat center top;
+	overflow: hidden;
 }
+	.tours_cheap_form{
+		float: right;
+		width: 350px;
+		margin: 108px 0 0 0;
+		padding: 30px 50px;
+		box-sizing: border-box;
+		h5{
+			color: #333;
+			font-size: 25px;
+			font-weight: 700;
+			line-height: 24px;
+			text-transform: uppercase;
+			&:after{
+				content: '';
+				display: block;
+				width: 40px;
+				height: 2px;
+				background-color: #333;
+				margin: 11px 0;
+			}
+		}
+		p{
+			font-size: 15px;
+			color: #333;
+			line-height: 24px;
+			padding-bottom: 20px;
+		}
+		form div{
+			padding-bottom:15px;
+		}
+		input{
+			color: #7b7b7b;
+			font-family: 'Open Sans';
+			font-size: 14px;
+			font-weight: 400;
+			line-height: 24px;
+			border: none;
+			width: 240px;
+			height: 32px;
+			background-color: #f1f1f1;
+			border-radius: 4px;
+			text-indent: 15px;
+		}
+		button{
+			width: 138px;
+		    height: 42px;
+		    line-height: 42px;
+		    background-color: #ed1f27;
+		    border-radius: 5px;
+		    box-shadow: 1px 1.7px #a92f34;
+		    color: #fff;
+		    font-family: "Open Sans";
+		    font-size: 15px;
+		    font-weight: 700;
+		    text-transform: uppercase;
+		    cursor: pointer;
+		    display: block;
+		    text-align: center;
+		    min-width: 238px;
+		    position: relative;
+		    border: none;
+		    &:hover{
+		    	    background: #a92f34;
+		    }
+		}
+	}
