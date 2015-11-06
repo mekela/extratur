@@ -1,0 +1,63 @@
+.popup{
+
+	&-tour{
+		width: 512px;
+		border-top: 6px solid #f36d2c;
+		&-main{
+			padding: 0 22px;
+		}
+		&-title{
+			h3{
+				font-size: 20px;
+				font-weight: bold;
+ 				@extend %inline-middle;
+			} 
+			.tour-rating{
+ 				@extend %inline-middle;				
+			}
+		}		
+		&-image{ 
+
+		}
+		&-text{
+			font-size: 14px;
+			font-weight: 300;
+		}
+		&-call{
+			background: #fbdb52;
+			font-size: 22px;
+			font-weight: bold;
+			height: 59px;
+			line-height: 59px;
+			text-align: center;
+		}
+		&-form{
+			background: #fff1b6;
+			.zNice-tInput .zNice-bg{
+				background: #fff;
+			}
+			&-title{
+				font-size: 20px;
+				font-weight: bold;
+
+			}
+			.mform-field{
+				float: left;
+			}
+		}	
+		&-footer{
+			font-size: 15px;
+			font-weight: 300;
+			text-align: center;
+			height: 52px;
+			line-height: 52px; 
+			.icon{
+				margin-right: 15px;
+			}
+			p{
+ 				@extend %inline-middle;
+
+			}
+		}
+	} 
+}

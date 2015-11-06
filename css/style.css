@@ -150,7 +150,7 @@ a {
   .tour-rating span.active {
     background-position: left top; }
 
-.icon, .header-contacts-item span, .advantages-image img, .tour-item-title h3, .tour-item-title .tour-rating {
+.icon, .header-contacts-item span, .advantages-image img, .tour-item-title h3, .tour-item-title .tour-rating, .popup-tour-title h3, .popup-tour-title .tour-rating, .popup-tour-footer p {
   display: inline-block;
   vertical-align: middle; }
 
@@ -167,7 +167,7 @@ body * {
   overflow: hidden;
   display: block; }
 
-.icon, .header-contacts-item span, .advantages-image img, .tour-item-title h3, .tour-item-title .tour-rating {
+.icon, .header-contacts-item span, .advantages-image img, .tour-item-title h3, .tour-item-title .tour-rating, .popup-tour-title h3, .popup-tour-title .tour-rating, .popup-tour-footer p {
   display: inline-block;
   vertical-align: middle; }
 
@@ -596,3 +596,39 @@ body * {
     height: 30px;
     line-height: 30px;
     font-size: 14px; }
+
+.popup-tour {
+  width: 512px;
+  border-top: 6px solid #f36d2c; }
+  .popup-tour-main {
+    padding: 0 22px; }
+  .popup-tour-title h3 {
+    font-size: 20px;
+    font-weight: bold; }
+  .popup-tour-text {
+    font-size: 14px;
+    font-weight: 300; }
+  .popup-tour-call {
+    background: #fbdb52;
+    font-size: 22px;
+    font-weight: bold;
+    height: 59px;
+    line-height: 59px;
+    text-align: center; }
+  .popup-tour-form {
+    background: #fff1b6; }
+    .popup-tour-form .zNice-tInput .zNice-bg {
+      background: #fff; }
+    .popup-tour-form-title {
+      font-size: 20px;
+      font-weight: bold; }
+    .popup-tour-form .mform-field {
+      float: left; }
+  .popup-tour-footer {
+    font-size: 15px;
+    font-weight: 300;
+    text-align: center;
+    height: 52px;
+    line-height: 52px; }
+    .popup-tour-footer .icon {
+      margin-right: 15px; }

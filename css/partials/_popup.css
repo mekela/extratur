@@ -1,0 +1,14 @@
+.popup {
+  width: 512px;
+  border-top: 6px solid #f36d2c;
+}
+
+.popup-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.popup-text {
+  font-size: 14px;
+  font-weight: 300;
+}
