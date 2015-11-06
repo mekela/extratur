@@ -3,13 +3,31 @@
 	bottom: 0;
 	left: 0;
 	right: 0;
+	background: rgba(0,0,0, 0.3);
+	height: 176px;
+	&-image{
+		height: 93px;
+		img{
+			@extend %inline-middle;
+		}
+	}
+	&-title{
+		color:#fff;
+		font-size: 16px;
+		line-height: 22px;
+	}
 	ul{
-		display: table;
-		table-layout: fixed;
+		height: 176px;
 		width: 100%;
 		li{
-			display: table-cell;
+			float: left;
+			width: 20%;
+			height: 100%;
 			text-align: center;
+			@include transition(300, all, ease-out);
+			&:hover{
+				background: rgba(0,0,0, 0.3);
+			}
 		}
 	}
 }

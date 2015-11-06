@@ -10,9 +10,12 @@ $container: 1000px;
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800&subset=latin,cyrillic-ext);
 
 body{
-	font-family: 'Open Sans', sans-serif;
+	font-family: $fontfamily;
 	font-size: 14px;
 	margin:0;
+}
+body *{
+	@extend %borderBox;
 }
 a{
 	color:#000;
@@ -24,22 +27,52 @@ a{
 .container{
 	width: $container;
 	margin:0 auto;
+	position: relative;
 	@extend %clear;
 }
 
-@mixin button($button) {
+.vfix {
+	height: 100%;
+	width: 0px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+@mixin button {
 	width: 138px;
-	height: 27px;
-	background-color: #f36d2c;
+	height: 42px;
+	line-height: 42px;
+	background-color: #ed1f27;
 	border-radius: 5px;
-	box-shadow: 1px 1.7px 0 #bf5622;
+    box-shadow: 1px 1.7px #a92f34;
 	color: $color_white;
 	font-family: $fontfamily;
-	font-size: 13px;
+	font-size: 15px;
 	font-weight: 700;
-	line-height: 24px;
 	text-transform: uppercase;
 	cursor: pointer;
+	display: block;
+	text-align: center;
+	min-width: 238px;
+	position: relative;
+
+	&:hover{
+		background: #a92f34;
+	}
+}
+
+.button{
+	@include button;
+	input {
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		left: 0;
+		top: 0;
+		border: 0;
+		background: url('../images/spacer.gif');
+		cursor: pointer;
+	}
 }
 
 #wrapper{
