@@ -50,6 +50,7 @@ a{
 	font-size: 15px;
 	font-weight: 700;
 	text-transform: uppercase;
+	text-decoration: none;
 	cursor: pointer;
 	display: block;
 	text-align: center;
@@ -70,8 +71,19 @@ a{
 		left: 0;
 		top: 0;
 		border: 0;
-		background: url('../images/spacer.gif');
+		background: url('../img/blank.gif');
 		cursor: pointer;
+	}
+	&.btn-orange{
+		height: 29px;
+		line-height: 29px;
+		min-width: 140px;
+		font-size: 13px;
+		background: #f36d2c;
+	 	box-shadow: 1px 1.7px #a85e35;
+	 	&:hover{
+	 		background: #a85e35;
+	 	}
 	}
 }
 

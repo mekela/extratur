@@ -33,6 +33,12 @@
 
 .icon {
 	@extend %inline-middle;	
+
+	&-word{
+	 	width: 32px;
+	 	height: 32px;
+	 	background: url(../img/icon-word.png);
+ 	}
 }
 
 
@@ -56,5 +62,19 @@
  	&-map {
 		@include positon(0 -92px); 
 		height: 21px;
+ 	}
+ }
+
+
+ %icon-star{
+ 	height: 12px;
+ 	width: 12px;
+ 	background: url(../img/icon-star.png);
+ 	background-position: right top;
+ 	margin:0 2.5px;
+ 	display: block;
+ 	float: left;
+ 	&.active{
+ 		background-position: left top;
  	}
  }
