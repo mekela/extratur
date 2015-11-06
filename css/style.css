@@ -1,5 +1,27 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800&subset=latin,cyrillic-ext);html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}b{font-weight:bold}i{font-style:italic}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}table{border-collapse:collapse;border-spacing:0}body{font-family:'Open Sans', sans-serif;font-size:14px;margin:0}a{color:#000;text-decoration:underline}a:hover{text-decoration:none}.container{width:1000px;margin:0 auto}#wrapper{min-width:1000px}.inner{width:1000px;margin:0 auto}.icon-contacts{background-image:url(../img/icon-contacts.png);background-repeat:no-repeat;width:25px}.icon-contacts-phone{background-position:0 0;height:21px}.icon-contacts-mail{background-position:0 -49px;height:14px}.icon-contacts-map{background-position:0 -92px;height:21px}.icon,.header-contacts-item span{display:inline-block;vertical-align:middle}.container:after,.header:after,.header-logo:after{content:'';clear:both;font-size:1px;line-height:1px;height:0;overflow:hidden;display:block}.icon,.header-contacts-item span{display:inline-block;vertical-align:middle}.header-logo{float:left}.header-logo-image{float:left;margin-right:34px}.header-logo-title{float:left;font-size:20px;text-transform:uppercase;font-weight:300;max-width:180px;padding-top:43px;line-height:24px}.header-contacts{float:right;padding-top:14px}.header-contacts-item{font-weight:300;font-size:15px;color:#000;margin-bottom:23px}.header-contacts-item b{font-size:17px;font-weight:bold}.header-contacts-item .icon{margin-right:10px}.firstScreen{height:667px;background-position:center top;background-repeat:no-repeat;background-size:cover;position:relative}.advantages{position:absolute;bottom:0;left:0;right:0}.advantages ul{display:table;table-layout:fixed;width:100%}.advantages ul li{display:table-cell;text-align:center}.header-logo{float:left}.header-logo-image{float:left;margin-right:34px}.header-logo-title{float:left;font-size:20px;text-transform:uppercase;font-weight:300;max-width:180px;padding-top:43px;line-height:24px}.header-contacts{float:right;padding-top:14px}.header-contacts-item{font-weight:300;font-size:15px;color:#000;margin-bottom:23px}.header-contacts-item b{font-size:17px;font-weight:bold}.header-contacts-item .icon{margin-right:10px}.footer{background-color:#f4f4f4;padding:13px 0;margin:25px 0 7px 0;overflow:hidden}.footer .logo{float:left;width:322px}.footer .logo a{float:left;overflow:hidden}.footer .logo p{overflow:hidden;padding:40px 0 0 20px;color:#333;font-size:14px;font-weight:400;line-height:24px}.footer .footer-contacts{float:left;padding-left:80px;padding-top:7px}.footer_order_button{float:right;overflow:hidden;padding:43px 0 0 0}.order_button{width:268px;height:40px;background-color:#ed1c24;border-radius:5px;box-shadow:1px 1.7px 0 #b0161c;color:white;font-size:14px;font-weight:700;line-height:40px;text-transform:uppercase;display:block;text-align:center;text-decoration:none;margin:1px 2px 4px 2px}.foot_develop{text-align:center;margin:0 0 11px 0;color:#838383;font-size:14px;font-weight:300;line-height:24px}.map_wrap{height:478px}.map_wrap .container{height:0px;overflow:visible}.contacts_block{position:relative;z-index:3;float:right;width:391px;height:219px;margin:135px 0 0 0;box-sizing:border-box;padding:6px;border:5px solid rgba(243,109,44,0.95)}.contacts_block_inner{height:198px;box-sizing:border-box;padding:12px 19px;background-color:rgba(243,109,44,0.95)}.contacts_block_inner .header-contacts-item i{-webkit-filter:brightness(600%);filter:brightness(600%);position:absolute;left:0;top:8px}.contacts_block_inner .header-contacts-item{font-size:16px;font-weight:400;color:#fff;line-height:30px;position:relative}.contacts_block_inner .header-contacts-item span{position:relative;padding-left:33px}.contacts_block_inner .header-contacts-item a{color:#fff;text-decoration:none}.form_text_wrap{padding:25px 0;text-align:center;font-size:18px;font-weight:300;background-color:#fbdb52;background-image:-webkit-linear-gradient(left, #fbdb52 0%, #fff1b6 100%);background-image:linear-gradient(to right, #fbdb52 0%, #fff1b6 100%)}.form_text_wrap p{padding:0 0 20px 0}.form_text_wrap p b{font-size:22px;font-weight:700}.how_work_wrap{padding:40px 0}.title{color:black;font-size:35px;font-weight:700;line-height:24px;text-transform:uppercase;text-align:center;padding-bottom:60px}.work_block{position:relative;overflow:hidden;font-size:0;text-align:center}.work_block figure{display:inline-block;vertical-align:top;width:25%;position:relative;color:#010101;font-size:16px;font-weight:300;line-height:24px;margin-bottom:59px}.work_block figure span{display:block;background:#fff;width:182px;margin:0 auto;position:relative;z-index:2}.work_block figure figcaption{padding:18px 0 0 0}.work_block figure:before{content:'';width:100%;height:1px;background-color:#f36d2c;position:absolute;left:180px;top:56px}.work_block figure:nth-child(2){margin:0 10%}.work_block figure:nth-child(3):before,.work_block figure:last-child:before{display:none}.tours_cheap_wrap{height:515px;background:url(../img/order_bg.jpg) no-repeat center top}
-
+/**
+ * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
+ * http://cssreset.com
+ */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800&subset=latin,cyrillic-ext);
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
 
 b {
   font-weight: bold; }
@@ -64,6 +86,7 @@ a {
   font-size: 15px;
   font-weight: 700;
   text-transform: uppercase;
+  text-decoration: none;
   cursor: pointer;
   display: block;
   text-align: center;
@@ -78,8 +101,17 @@ a {
     left: 0;
     top: 0;
     border: 0;
-    background: url("../images/spacer.gif");
+    background: url("../img/blank.gif");
     cursor: pointer; }
+  .button.btn-orange {
+    height: 29px;
+    line-height: 29px;
+    min-width: 140px;
+    font-size: 13px;
+    background: #f36d2c;
+    box-shadow: 1px 1.7px #a85e35; }
+    .button.btn-orange:hover {
+      background: #a85e35; }
 
 #wrapper {
   min-width: 1000px; }
@@ -87,6 +119,11 @@ a {
 .inner {
   width: 1000px;
   margin: 0 auto; }
+
+.icon-word {
+  width: 32px;
+  height: 32px;
+  background: url(../img/icon-word.png); }
 
 .icon-contacts {
   background-image: url(../img/icon-contacts.png);
@@ -102,7 +139,18 @@ a {
     background-position: 0 -92px;
     height: 21px; }
 
-.icon, .header-contacts-item span, .advantages-image img {
+.tour-rating span {
+  height: 12px;
+  width: 12px;
+  background: url(../img/icon-star.png);
+  background-position: right top;
+  margin: 0 2.5px;
+  display: block;
+  float: left; }
+  .tour-rating span.active {
+    background-position: left top; }
+
+.icon, .header-contacts-item span, .advantages-image img, .tour-item-title h3, .tour-item-title .tour-rating {
   display: inline-block;
   vertical-align: middle; }
 
@@ -110,7 +158,7 @@ body * {
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
-.container:after, .header:after, .header-logo:after {
+.container:after, .header:after, .header-logo:after, .tour .row:after {
   content: '';
   clear: both;
   font-size: 1px;
@@ -119,7 +167,7 @@ body * {
   overflow: hidden;
   display: block; }
 
-.icon, .header-contacts-item span, .advantages-image img {
+.icon, .header-contacts-item span, .advantages-image img, .tour-item-title h3, .tour-item-title .tour-rating {
   display: inline-block;
   vertical-align: middle; }
 
@@ -156,6 +204,7 @@ body * {
 
 .firstScreen {
   height: 667px;
+  margin-bottom: 39px;
   background-position: center top;
   background-repeat: no-repeat;
   background-size: cover;
@@ -254,3 +303,251 @@ body * {
     color: #fff;
     line-height: 24px;
     margin-bottom: 23px; }
+
+.footer {
+  background-color: #f4f4f4;
+  padding: 13px 0;
+  margin: 25px 0 7px 0;
+  overflow: hidden; }
+  .footer .logo {
+    float: left;
+    width: 322px; }
+    .footer .logo a {
+      float: left;
+      overflow: hidden; }
+    .footer .logo p {
+      overflow: hidden;
+      padding: 40px 0 0 20px;
+      color: #333;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 24px; }
+  .footer .footer-contacts {
+    float: left;
+    padding-left: 80px;
+    padding-top: 7px; }
+
+.footer_order_button {
+  float: right;
+  overflow: hidden;
+  padding: 43px 0 0 0; }
+
+.order_button {
+  width: 268px;
+  height: 40px;
+  background-color: #ed1c24;
+  border-radius: 5px;
+  box-shadow: 1px 1.7px 0 #b0161c;
+  color: white;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 40px;
+  text-transform: uppercase;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  margin: 1px 2px 4px 2px; }
+
+.foot_develop {
+  text-align: center;
+  margin: 0 0 11px 0;
+  color: #838383;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 24px; }
+
+.map_wrap {
+  height: 478px; }
+  .map_wrap .container {
+    height: 0px;
+    overflow: visible; }
+
+.contacts_block {
+  position: relative;
+  z-index: 3;
+  float: right;
+  width: 391px;
+  height: 219px;
+  margin: 135px 0 0 0;
+  box-sizing: border-box;
+  padding: 6px;
+  border: 5px solid rgba(243, 109, 44, 0.95); }
+
+.contacts_block_inner {
+  height: 198px;
+  box-sizing: border-box;
+  padding: 12px 19px;
+  background-color: rgba(243, 109, 44, 0.95); }
+  .contacts_block_inner .header-contacts-item i {
+    filter: brightness(600%);
+    position: absolute;
+    left: 0;
+    top: 8px; }
+  .contacts_block_inner .header-contacts-item {
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    line-height: 30px;
+    position: relative; }
+    .contacts_block_inner .header-contacts-item span {
+      position: relative;
+      padding-left: 33px; }
+    .contacts_block_inner .header-contacts-item a {
+      color: #fff;
+      text-decoration: none; }
+
+.form_text_wrap {
+  padding: 25px 0;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 300;
+  background-color: #fbdb52;
+  background-image: linear-gradient(to right, #fbdb52 0%, #fff1b6 100%); }
+  .form_text_wrap p {
+    padding: 0 0 20px 0; }
+    .form_text_wrap p b {
+      font-size: 22px;
+      font-weight: 700; }
+
+.how_work_wrap {
+  padding: 40px 0; }
+
+.title {
+  color: black;
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 24px;
+  text-transform: uppercase;
+  text-align: center;
+  padding-bottom: 60px; }
+
+.work_block {
+  position: relative;
+  overflow: hidden;
+  font-size: 0;
+  text-align: center; }
+  .work_block figure {
+    display: inline-block;
+    vertical-align: top;
+    width: 25%;
+    position: relative;
+    color: #010101;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    margin-bottom: 59px; }
+    .work_block figure span {
+      display: block;
+      background: #fff;
+      width: 182px;
+      margin: 0 auto;
+      position: relative;
+      z-index: 2; }
+    .work_block figure figcaption {
+      padding: 18px 0 0 0; }
+  .work_block figure:before {
+    content: '';
+    width: 100%;
+    height: 1px;
+    background-color: #f36d2c;
+    position: absolute;
+    left: 180px;
+    top: 56px; }
+
+.work_block figure:nth-child(2) {
+  margin: 0 10%; }
+
+.work_block figure:nth-child(3):before, .work_block figure:last-child:before {
+  display: none; }
+
+.tours_cheap_wrap {
+  height: 515px;
+  background: url(../img/order_bg.jpg) no-repeat center top; }
+
+.tour {
+  margin-bottom: 39px; }
+  .tour-head {
+    position: relative; }
+    .tour-head-title {
+      font-size: 20px;
+      font-weight: bold;
+      color: #fff;
+      background: rgba(0, 0, 0, 0.4);
+      line-height: 55px;
+      padding: 0 10px;
+      position: absolute;
+      bottom: 19px;
+      left: 0;
+      right: 0;
+      -webkit-transition: all 300ms ease-out;
+      -moz-transition: all 300ms ease-out;
+      -ms-transition: all 300ms ease-out;
+      -o-transition: all 300ms ease-out;
+      transition: all 300ms ease-out; }
+    .tour-head:hover .tour-head-title {
+      bottom: 25px; }
+  .tour-body {
+    border-left: 3px solid #e8e8e8;
+    border-right: 3px solid #e8e8e8;
+    border-bottom: 3px solid #e8e8e8;
+    padding: 2px 20px 25px 20px; }
+  .tour-item {
+    position: relative;
+    overflow: hidden; }
+    .tour-item-title h3 {
+      font-size: 15px;
+      font-weight: bold;
+      text-transform: uppercase;
+      line-height: 50px;
+      margin-right: 13px; }
+    .tour-item-title .tour-rating {
+      height: 12px; }
+    .tour-item-image {
+      height: 86px;
+      position: relative; }
+      .tour-item-image:hover .tour-item-descripton {
+        width: 279px; }
+    .tour-item-price {
+      color: #fff;
+      font-size: 17px;
+      font-weight: bold;
+      margin-bottom: 11px;
+      padding-right: 9px; }
+    .tour-item-descripton {
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 248px;
+      height: 100%;
+      padding-top: 18px;
+      padding-right: 17px;
+      text-align: right;
+      background-image: url(../img/tour-description.png);
+      background-position: left top;
+      -webkit-transition: all 300ms ease-out;
+      -moz-transition: all 300ms ease-out;
+      -ms-transition: all 300ms ease-out;
+      -o-transition: all 300ms ease-out;
+      transition: all 300ms ease-out; }
+      .tour-item-descripton .button {
+        float: right; }
+  .tour-list {
+    margin-bottom: 23px; }
+  .tour-request {
+    font-size: 18px;
+    font-weight: 300;
+    color: #f36d2c;
+    text-align: center;
+    display: block; }
+    .tour-request span {
+      padding-right: 18px; }
+    .tour-request:hover span {
+      text-decoration: underline;
+      text-decoration: none; }
+  .tour .row {
+    margin-left: -11px;
+    margin-right: -11px; }
+  .tour .col-item {
+    padding-left: 11px;
+    padding-right: 11px;
+    float: left; }
