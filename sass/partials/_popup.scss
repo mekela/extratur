@@ -4,16 +4,20 @@
 		width: 512px;
 		border-top: 6px solid #f36d2c;
 		&-main{
-			padding: 0 22px;
+			padding: 20px 22px 15px 22px;
 		}
-		&-title{
+		&-title{ 
+		  	line-height: 45px;
 			h3{
 				font-size: 20px;
 				font-weight: bold;
- 				@extend %inline-middle;
+				text-transform: uppercase; 
+ 				@extend %inline-middle; 
+ 				width: 80%;
 			} 
 			.tour-rating{
- 				@extend %inline-middle;				
+ 				@extend %inline-middle;
+ 				width: 19%;		
 			}
 		}		
 		&-image{ 
@@ -21,7 +25,10 @@
 		}
 		&-text{
 			font-size: 14px;
+			line-height: 24px;
 			font-weight: 300;
+			max-height: 120px;
+			overflow: hidden;
 		}
 		&-call{
 			background: #fbdb52;
@@ -33,16 +40,32 @@
 		}
 		&-form{
 			background: #fff1b6;
+			padding: 15px 20px 0 20px;
 			.zNice-tInput .zNice-bg{
 				background: #fff;
 			}
 			&-title{
 				font-size: 20px;
 				font-weight: bold;
+				margin-bottom: 20px;
 
 			}
-			.mform-field{
-				float: left;
+			.mform-field-row{
+				margin-right: -7.5px;
+				margin-left: -7.5px;
+				@extend %clear;
+				.mform-field{
+					float: left;
+					width: 33.33%;
+					padding-left: 7.5px;
+					padding-right: 7.5px;
+					.button{
+						min-width: auto;
+						height: 31px;
+						line-height: 31px;
+						font-size: 13px;
+					}
+				}				
 			}
 		}	
 		&-footer{

@@ -37,7 +37,7 @@
 .zNice-error-text {
 	position: absolute;
 	right: 4px;
-	top: 2px;
+	top: 0px;
 	color: red;
 	margin: 0 0 0 5px;
 	white-space: nowrap;

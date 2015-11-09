@@ -158,7 +158,7 @@ body * {
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
-.container:after, .header:after, .header-logo:after, .tour .row:after, .tour-info:after {
+.container:after, .header:after, .header-logo:after, .tour .row:after, .tour-info:after, .popup-tour-form .mform-field-row:after {
   content: '';
   clear: both;
   font-size: 1px;
@@ -959,13 +959,22 @@ body * {
   width: 512px;
   border-top: 6px solid #f36d2c; }
   .popup-tour-main {
-    padding: 0 22px; }
-  .popup-tour-title h3 {
-    font-size: 20px;
-    font-weight: bold; }
+    padding: 20px 22px 15px 22px; }
+  .popup-tour-title {
+    line-height: 45px; }
+    .popup-tour-title h3 {
+      font-size: 20px;
+      font-weight: bold;
+      text-transform: uppercase;
+      width: 80%; }
+    .popup-tour-title .tour-rating {
+      width: 19%; }
   .popup-tour-text {
     font-size: 14px;
-    font-weight: 300; }
+    line-height: 24px;
+    font-weight: 300;
+    max-height: 120px;
+    overflow: hidden; }
   .popup-tour-call {
     background: #fbdb52;
     font-size: 22px;
@@ -974,14 +983,27 @@ body * {
     line-height: 59px;
     text-align: center; }
   .popup-tour-form {
-    background: #fff1b6; }
+    background: #fff1b6;
+    padding: 15px 20px 0 20px; }
     .popup-tour-form .zNice-tInput .zNice-bg {
       background: #fff; }
     .popup-tour-form-title {
       font-size: 20px;
-      font-weight: bold; }
-    .popup-tour-form .mform-field {
-      float: left; }
+      font-weight: bold;
+      margin-bottom: 20px; }
+    .popup-tour-form .mform-field-row {
+      margin-right: -7.5px;
+      margin-left: -7.5px; }
+      .popup-tour-form .mform-field-row .mform-field {
+        float: left;
+        width: 33.33%;
+        padding-left: 7.5px;
+        padding-right: 7.5px; }
+        .popup-tour-form .mform-field-row .mform-field .button {
+          min-width: auto;
+          height: 31px;
+          line-height: 31px;
+          font-size: 13px; }
   .popup-tour-footer {
     font-size: 15px;
     font-weight: 300;
